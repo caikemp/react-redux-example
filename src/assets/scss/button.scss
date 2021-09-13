@@ -1,0 +1,38 @@
+button {
+  cursor: pointer;
+}
+
+.beer-button {
+  min-width: 56px;
+  max-width: 80px;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  background: #fff;
+  margin: $default-margin;
+  min-width: 150px;
+  height: 28px;
+  border-radius: 5px;
+
+  &.disabled {
+    border: 1px solid #ccc;
+    cursor: initial;
+    color: #444;
+    background-color: $secondary-color;
+  }
+}
+
+.beer-circle-button {
+  $button-size: 24px;
+  border-radius: 50%;
+  background: none;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  min-height: $button-size;
+  min-width: $button-size;
+
+  &.disabled {
+    border: 1px solid #ccc;
+    cursor: initial;
+    color: $secondary-color;
+  }
+}

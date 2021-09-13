@@ -1,0 +1,19 @@
+$grid__bp-xs: 0;
+$grid__bp-sm: 576;
+$grid__bp-md: 768;
+$grid__bp-lg: 992;
+$grid__bp-xl: 1200;
+$grid__cols: 12;
+$default-margin: 0 15px;
+
+$primary-color: #007bff;
+$secondary-color: #ccc;
+
+$map-grid-props: (
+  "": 0,
+  "-xs": $grid__bp-xs,
+  "-sm": $grid__bp-sm,
+  "-md": $grid__bp-md,
+  "-lg": $grid__bp-lg,
+  "-xl": $grid__bp-xl,
+);
